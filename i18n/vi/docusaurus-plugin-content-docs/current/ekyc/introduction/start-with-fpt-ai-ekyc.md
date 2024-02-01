@@ -55,11 +55,8 @@ Giải pháp FPT AI eKYC bao gồm nhiều tính năng riêng biệt, có thể 
 3. **ID Fraud check:** Phát hiện các giấy tờ tùy thân có dấu hiệu giả mạo. Các dấu hiệu giả mạo thường gặp như:  
 
 - Dán đè ảnh, và sửa đổi thông tin trên thẻ (Tên, Số ID)   
-
 - Chụp lại ảnh qua màn hình  
-
 - Chỉnh sửa chân dung, dán đè chân dung  
-
 - Thay đổi các kênh màu   
 
     Sử dụng bộ 98 điều kiện kiểm tra thông tin và vị trí tiêu chuẩn trên giấy CMND/CCCD của Bộ Công an để xác minh tính tính xác của thông tin. 
@@ -74,8 +71,8 @@ Giải pháp FPT AI eKYC bao gồm nhiều tính năng riêng biệt, có thể 
     + Output chính: Hai thông tin trên có khớp không   
 * Dịch vụ tham chiếu thông tin CSDL Quốc gia C06:  
     + Tính đến hết tháng 4 năm 2023, tại Việt Nam có hơn 80 triệu CCCD gắn chip, việc tích hợp cơ sở dữ liệu quốc gia và kiểm tra thông tin chip sẽ là phương thức định danh và chống giả mạo hiệu quả trong thời gian tới. Quá trình xác thực thông tin trong chip của CCCD chip thông qua mobile FPT AI SDK gồm 3 bước: 	  <br/>
-        **Bước 1:** Đọc thông tin chip thông qua mobile SDK hoặc thiết bị chuyên dụng (FPT AI cung cấp) 18 trường thông tin trong chip 
-        **Bước 2:** Kiểm tra tính toàn vẹn của data trong chip (dịch vụ BCA cung cấp)   
+        **Bước 1:** Đọc thông tin chip thông qua mobile SDK hoặc thiết bị chuyên dụng (FPT AI cung cấp) 18 trường thông tin trong chip <br/>
+        **Bước 2:** Kiểm tra tính toàn vẹn của data trong chip (dịch vụ BCA cung cấp)   <br/>
         **Bước 3:** Xác định certificate chữ ký số trong CCCD là chuẩn (dịch vụ BCA cung cấp)  
 
 ### 3. Yêu cầu dữ liệu đầu vào 

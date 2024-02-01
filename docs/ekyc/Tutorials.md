@@ -12,7 +12,17 @@ Following the instructions below will help maximize API key security and ensure 
 Key Rotation: Periodically change API keys every 3-6 months to ensure security on https://console.fpt.ai. Immediately deactivate the old API key.
 - **Secure Transmission:** Always use HTTPS to encrypt API request calls.
 
-## 2. Frequently asked questions
+## 2. Standard input data
+The data used needs to be evenly allocated for each type of document and meet the criteria of good quality.<br/>
+The criteria for good quality do not include any of the following properties affecting the quality of information extraction:
+- Images not rotated/tilted more than 5 degrees
+- Images without blurriness, lines, dirt, wrinkles, tears, or glare
+- Images not blurry, shaky, or unreadable
+- Images not missing corners
+- Each PDF image/page only contains 1 side of 1 type of inscope document
+- Don't accept images taken from a phone screen via a computer monitor
+
+## 3. FAQs
 ### **Q1: Which platforms does the eKYC SDK support?**
 Currently the SDK supports a variety of platforms such as: 
 - native iOS (objective c + swift)
@@ -23,7 +33,7 @@ Currently the SDK supports a variety of platforms such as:
 SDK can support basic customization such as color and notification content. As for more powerful customizations, customers can contact FPT for further advice.
 
 <div style={{textAlign: 'center'}}>
-    <img src="/ekyc picture/FAQ1.png" alt=""/>
+    <img src="/ekyc picture/FAQ1.png"/>
 </div>
 
 ### **Q3: Why does the demo app run but when I incorporate the SDK into my application it doesn't run?**
@@ -33,14 +43,14 @@ Customers can check the language setup configuration again
 ### **Q5: Why is attaching the SDK and then building the file so heavy and large in size?**
 Because the SDK uses the full tensorflow library for all architectures (x86_64, x86, arm64-v8a, armeabi-v7a), the file size will include all architectures, this will not affect end users.
 <div style={{textAlign: 'center'}}>
-    <img src="/ekyc picture/FAQ2.png" alt=""/>
+    <img src="/ekyc picture/FAQ2.png"/>
 </div>
 
 ### **Q6: How to hide StepView, GuideView...?**
 Customers can configure everything themselves on the portal page https://ekyc.fpt.ai/settings?tab=sdk 
 
 <div style={{textAlign: 'center'}}>
-    <img src="/ekyc picture/FAQ3.png" alt=""/>
+    <img src="/ekyc picture/FAQ3.png"/>
 </div>
 
 ### **Q7: Can I configure the SDK to use only OCR or liveness?**

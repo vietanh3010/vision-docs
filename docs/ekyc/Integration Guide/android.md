@@ -1,4 +1,4 @@
-# ekyc-sdk-nfc-android
+# ANDROID
 
 ## Introduction
 

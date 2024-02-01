@@ -109,7 +109,7 @@ const config = {
                         position: 'left'
                     },
                     {
-                        to: '/ekyc',
+                        to: '/ekyc/introduction/what-is-ekyc',
                         // sidebarId: 'eKYCSidebar',
                         label: 'FPT AI eKYC',
                         position: 'left'
@@ -120,35 +120,6 @@ const config = {
                     },
                 ],
             },
-            // sidebar: [
-            //     {
-            //         type: 'category',
-            //         label: 'Mục chính 1',
-            //         items: [
-            //             "read/intro",
-            //         ],
-            //     },
-            //     {
-            //         type: 'category',
-            //         label: 'Mục chính 2',
-            //         items: [
-            //             'read/idp-documentation/what-is-idp',
-            //             'read/idp-documentation/idp-purpose',
-            //             'read/idp-documentation/benefit-ai-reader',
-            //             'read/idp-documentation/start-fpt-ai',
-            //         ],
-            //     },
-            //     {
-            //         type: 'category',
-            //         label: 'Mục chính 3',
-            //         items: [
-            //             'ekyc/documentation/overview/face-match-overview',
-            //             'ekyc/documentation/overview/face-search-overview',
-            //             'ekyc/documentation/overview/sdk-ekyc-overview',
-            //             'ekyc/documentation/overview/liveness-detection-overview',
-            //         ],
-            //     },
-            // ],
             footer: {
                 style: 'dark',
                 links: [
@@ -166,7 +137,7 @@ const config = {
                         items: [
                             {
                                 label: 'FPT AI eKYC Documentation',
-                                to: '/ekyc',
+                                to: '/ekyc/introduction/what-is-ekyc',
                             },
                         ],
                     },

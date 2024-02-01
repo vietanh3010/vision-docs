@@ -13,7 +13,18 @@ Việc tuân thủ các hướng dẫn dưới đây sẽ giúp bảo mật tố
 - **Đổi mới API key:** Nên đổi API key định kỳ 3-6 tháng một lần để đảm bảo an toàn tại trang https://console.fpt.ai. Vô hiệu hóa ngay API key cũ.
 - **Bảo mật đường truyền:** Luôn sử dụng HTTPS để mã hóa các request gọi API.
 
-## 2. Frequently Asked Questions:
+## 2. Dữ liệu chuẩn đầu vào
+
+Dữ liệu sử dụng cần phân bổ số lượng đồng đều cho từng loại văn bản, và đạt tiêu chí chất lượng đẹp <br/>
+Tiêu chí chất lượng đẹp không bao gồm một trong các tính chất gây ảnh hưởng chất lượng trích xuất thông tin :
+- Ảnh không bị xoay/nghiêng trên 5 độ
+- Ảnh không có vết mờ, vạch kẻ, vết bẩn, nhăn, rách hoặc bóng lóa
+- Ảnh không nhòe, rung, không đọc được ký tự
+- Ảnh không chụp mất góc
+- Mỗi ảnh/trang PDF chỉ chứa 1 mặt của 1 loại giấy tờ inscope
+- Không chấp nhận ảnh được chụp lại từ điện thoại qua màn hình máy tính
+
+## 3. FAQs:
 ### **Q1: eKYC SDK hỗ trợ những nền tảng nào?**  
 Hiện tại SDK hỗ trợ đa dạng các nền tảng như: native iOS (objective c + swift), android (kotlin + java), react native và flutter.  
 ### **Q2: eKYC SDK có hỗ trợ custom giao diện được không?**   
