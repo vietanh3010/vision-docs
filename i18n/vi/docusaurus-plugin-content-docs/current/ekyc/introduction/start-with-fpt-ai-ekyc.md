@@ -76,7 +76,7 @@ Giải pháp FPT AI eKYC bao gồm nhiều tính năng riêng biệt, có thể 
         **Bước 3:** Xác định certificate chữ ký số trong CCCD là chuẩn (dịch vụ BCA cung cấp)  
 
 ### 3. Yêu cầu dữ liệu đầu vào 
-**Định dạng dữ liệu đầu vào:** Hỗ trợ file định dạng ảnh (*.JPG, *.JPEG, *.PNG, *.BMP) hoặc PDF (*.PDF) 
+**Định dạng dữ liệu đầu vào:** Hỗ trợ file định dạng ảnh (*.JPG, *.JPEG, *.PNG, *.BMP, *.TIFF) hoặc PDF (*.PDF) 
 
 **Chất lượng dữ liệu đầu vào:** <br/>
 *Đối với file ảnh:*  
