@@ -8,7 +8,8 @@ Bên cạnh các lợi ích chung của eKYC, với nền tảng công nghệ AI
 ### *Nâng cao hiệu quả OCR* 
 * Mức độ chính xác của nhận diện hình ảnh được nâng cao hơn nhờ công nghệ Thị giác Máy tính (Computer vision), giúp căn chỉnh, hiệu chỉnh ảnh chụp đầu vào chính xác nhất.  
 * Công nghệ Xử lý ngôn ngữ tự nhiên (NLP – Natural Language Process) giúp tối ưu hiệu quả và kết quả trích xuất, có khả năng dự đoán các kí tự còn thiếu và tự động gợi ý điền thông tin.  
-=> FPT AI eKYC có khả năng trích xuất thông tin chính từ cả các hình ảnh không hoàn toàn rõ nét, giấy tờ cũ, hư tổn (ở một mức độ nhất định), hiệu quả tối ưu hơn công nghệ Nhận diện ký tự quang học (OCR – Optical Character Recognition) truyền thống . 
+
+Qua đó, FPT AI eKYC có khả năng trích xuất thông tin chính từ cả các hình ảnh không hoàn toàn rõ nét, giấy tờ cũ, hư tổn (ở một mức độ nhất định), hiệu quả tối ưu hơn công nghệ Nhận diện ký tự quang học (OCR – Optical Character Recognition) truyền thống. 
 ### *Phát hiện và phòng chống các gian lận công nghệ tinh vi* 
 Với kinh nghiệm nhiều năm cung cấp giải pháp cho các doanh nghiệp tài chính, ngân hàng – lĩnh vực đòi hỏi tiêu chuẩn rất cao trong việc phòng chống gian lận tài chính, giả mạo danh tính,… FPT AI eKYC đã phát triển và tích hợp nhiều module phòng chống gian lận như:  
 * Kiểm tra tính toàn vẹn của giấy tờ (chống cắt ghép, chỉnh sửa...) 

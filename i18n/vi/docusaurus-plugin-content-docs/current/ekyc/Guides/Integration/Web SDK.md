@@ -1,13 +1,13 @@
 ---
 sidebar_position: 1
-title: SDK
+title: Web SDK
 ---
 
-# SDK 
+# Web SDK 
 
 Sau khi đã tạo tài khoản trên FPT Console và được AM của FPT hỗ trợ tạo project và lấy API Key (xem mục 1 trong Bắt đầu với eKYC - Hướng dẫn tạo tài khoản), khách hàng thực hiện các bước sau để tích hợp và trải nghiệm SDK của FPT AI eKYC. <br/>
-**Bước 1:** Truy cập trang eKYC Portal (https://ekyc.fpt.ai/), thực hiện đăng nhập vào tài khoản <br/>
-**Bước 2:** Vào mục "SDK" và thực hiện theo hướng dẫn chi tiết  
+**Bước 1:** Truy cập trang eKYC Portal (https://ekyc.fpt.ai/), thực hiện đăng nhập vào tài khoản. <br/>
+**Bước 2:** Vào mục "SDK" và thực hiện theo hướng dẫn chi tiết. 
 
 <div style={{textAlign: 'center'}}>
     <img src="/ekyc picture/sdk.png"/>

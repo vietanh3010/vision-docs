@@ -4,7 +4,7 @@ title: Full flow API
 ---
 # Full flow API
 ## Step 1: Init session
-Với mỗi phiên thực hiện eKYc, khởi tạo phiên bằng cách call API init session. Mỗi phiên sẽ tồn tại mặc định là 30 phút (có thể config thay đổi được), nếu quá thời gian thì sẽ báo lỗi session timeout
+Với mỗi phiên thực hiện eKYC, khởi tạo phiên bằng cách call API init session. Mỗi phiên sẽ tồn tại mặc định là 30 phút (có thể config thay đổi được), nếu quá thời gian thì sẽ báo lỗi session timeout
 ### Request Url
 POST \<base_url\/session\/init\>
 ### Request Headers

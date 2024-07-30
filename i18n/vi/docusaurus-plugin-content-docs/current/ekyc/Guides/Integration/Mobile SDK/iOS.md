@@ -1,4 +1,4 @@
-# IOS
+# iOS
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -68,8 +68,6 @@ IDCardReader requires following keys in Info.plist:
 	<string>A0000002471001</string>
 </array>
 ```
-
-
 
 * Usage
 ```
